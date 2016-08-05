@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang= "en">
+<center> <div style="background-color:#027878;width:1500px; padding:20px; margin: 250px:">  
+<head>
+  <title>IgendaQuest</title>
+  <link rel="stylesheet" href="bootstrapStyle.css">
+  <script src="bootstrapScript.js"></script>
+	<meta charset= "utf-8>
+	<meta name= "viewport" content= "width=device-width, inital-scale=1">
+  <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Armata' rel='stylesheet' type='text/css'>
+  
+</head>
+<link rel="stylesheet" href="igendaStyle.css">
+	<link href='https://fonts.googleapis.com/css?family=Armata' rel='stylesheet' type='text/css'>
+	<link href='Armata' rel='stylesheet' type='text/css'>
+	</head>
+<body>
+   <center><h1><img src="IgQuest.png" alt="logo" style="width:600px;height:200px;"></h1></center>
+  <nav id="navbar-full" class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    </div>
+  <div id="navbar-nav">  
+  <ul class="nav navbar-nav">
+      <li class="active"><a href="schoolweb.html">Home</a></li>
+      <li><a href="gps.html">School GPS</a></li>
+      <li><a href="Clubs.html">Clubs</a></li> 
+      <li><a href="eventsActivities.html">Events/Activities</a></li>
+      <li><a href="communityService.html">Community Service</a></li> 
+    </ul>
+  </div>
+</nav>
+ <div class="container">
+                       </div>
+<html>
+	<head>
+	<link href='https://fonts.googleapis.com/css?family=Armata' rel='stylesheet' type='text/css'>
+	<link href='Armata' rel='stylesheet' type='text/css'>
+		<style>
+			#map{
+				width: 110;
+				height:850px;
+				postion:center
+			}
+			h3{
+			background-color:#027878;
+			font-family: 'Armata', sans-serif;
+			color: white
+			}
+			h4{
+			background-color:#027878;
+			font-family: 'Armata', sans-serif;
+			color: white
+			}
+			body{
+			background-color:#027878;
+			font-family: 'Armata', sans-serif;
+			color: black
+			}
+		</style>
+	</head>
+	
+	<body>
+		<center><h3>Coral Gables Senior High</h3></center>
+		<center><h4>Lost? New? Find your way with CGHS's official online map!</h4>
+		
+		<center><div id="map"></div></center>
+		<script>
+			function initMap() {
+				var mapDiv = document.getElementById('map');
+				var map = new google.maps.Map(mapDiv, {
+					center: {lat:25.731567, lng:-80.262653},
+					zoom: 8 
+				});
+			}
+function initMap() {
+  var myLatLng = {lat: 25.731567, lng: -80.262653};
+
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 4,
+    center: myLatLng
+  });
+  
+   marker = new google.maps.Marker({
+    map: map,
+    animation: google.maps.Animation.DROP,
+    position: {lat: 25.731567, lng: -80.262653}
+  });
+  
+  marker2 = new google.maps.Marker({
+	map: map, 
+	animation: google.maps.Animation.DROP,
+	position:{lat: 25.732599, lng: -80.262832}
+  });
+
+  marker3 = new google.maps.Marker({
+	map: map, 
+	animation: google.maps.Animation.DROP,
+	position:{lat: 25.733009, lng: -80.262561}
+  });
+  
+  marker4 = new google.maps.Marker({
+	map: map, 
+	animation: google.maps.Animation.DROP,
+	position:{lat: 25.733426, lng: -80.262724}
+  });
+  
+  marker5 = new google.maps.Marker({
+	map: map, 
+	animation: google.maps.Animation.DROP,
+	position:{lat: 25.733426, lng: -80.262724}
+  });
+  
+   marker6 = new google.maps.Marker({
+	map: map, 
+	animation: google.maps.Animation.DROP,
+	position:{lat: 25.732886, lng:-80.263204}
+  });
+  
+   marker7 = new google.maps.Marker({
+	map: map, 
+	animation: google.maps.Animation.DROP,
+	position:{lat: 25.733306, lng:-80.263167}
+  });
+  
+  marker8 = new google.maps.Marker({
+	map: map, 
+	animation: google.maps.Animation.DROP,
+	position:{lat: 25.733272, lng:-80.263695}
+  });
+  
+  marker9 = new google.maps.Marker({
+	map: map, 
+	animation: google.maps.Animation.DROP,
+	position:{lat: 25.734400, lng:-80.262984}
+  });
+  
+  marker10 = new google.maps.Marker({
+	map: map, 
+	animation: google.maps.Animation.DROP,
+	position:{lat: 25.734044, lng:-80.263746}
+  });
+  
+   marker11 = new google.maps.Marker({
+	map: map, 
+	animation: google.maps.Animation.DROP,
+	position:{lat: 25.734055, lng:-80.263389}
+  });
+  
+   marker12 = new google.maps.Marker({
+	map: map, 
+	animation: google.maps.Animation.DROP,
+	position:{lat: 25.734085 , lng:-80.262891}
+  });
+  
+  marker13 = new google.maps.Marker({
+	map: map, 
+	animation: google.maps.Animation.DROP,
+	position:{lat: 25.734161, lng:-80.262427}
+  });
+  
+   marker14 = new google.maps.Marker({
+	map: map, 
+	animation: google.maps.Animation.DROP,
+	position:{lat: 25.733792, lng:-80.262655}
+  });
+  
+  marker15 = new google.maps.Marker({
+	map: map, 
+	animation: google.maps.Animation.DROP,
+	position:{lat: 25.733809, lng: -80.263119}
+  });
+  
+  marker16 = new google.maps.Marker({
+	map: map, 
+	animation: google.maps.Animation.DROP,
+	position:{lat: 25.733699, lng: -80.263674}
+  });
+ 
+  var iw = new google.maps.InfoWindow({
+    content: "Coral Gables :0000"
+  });
+  google.maps.event.addListener(marker, "click", function(e) {
+    iw.open(map, this);
+  });
+  
+  var iw = new google.maps.InfoWindow({
+    content: "9000 building"
+  });
+  google.maps.event.addListener(marker2, "click", function(e) {
+    iw.open(map, this);
+  });
+  
+  var iw = new google.maps.InfoWindow({
+    content: "Gym"
+  });
+  google.maps.event.addListener(marker3, "click", function(e) {
+    iw.open(map, this);
+  });
+  
+  var iw = new google.maps.InfoWindow({
+    content: "9000 building"
+  });
+  google.maps.event.addListener(marker4, "click", function(e) {
+    iw.open(map, this);
+  });
+  
+  var iw = new google.maps.InfoWindow({
+    content: "9000 building"
+  });
+  google.maps.event.addListener(marker5, "click", function(e) {
+    iw.open(map, this);
+  });
+  
+  var iw = new google.maps.InfoWindow({
+    content: "9000 building"
+  });
+  google.maps.event.addListener(marker6, "click", function(e) {
+    iw.open(map, this);
+  });
+  
+  var iw = new google.maps.InfoWindow({
+    content: "9000 building"
+  });
+  google.maps.event.addListener(marker7, "click", function(e) {
+    iw.open(map, this);
+  });
+  
+  var iw = new google.maps.InfoWindow({
+    content: "9000 building"
+  });
+  google.maps.event.addListener(marker8, "click", function(e) {
+    iw.open(map, this);
+  });
+  
+  var iw = new google.maps.InfoWindow({
+    content: "9000 building"
+  });
+  google.maps.event.addListener(marker9, "click", function(e) {
+    iw.open(map, this);
+  });
+  
+  var iw = new google.maps.InfoWindow({
+    content: "9000 building"
+  });
+  google.maps.event.addListener(marker10, "click", function(e) {
+    iw.open(map, this);
+  });
+  
+  var iw = new google.maps.InfoWindow({
+    content: "9000 building"
+  });
+  google.maps.event.addListener(marker11, "click", function(e) {
+    iw.open(map, this);
+  });
+  
+  var iw = new google.maps.InfoWindow({
+    content: "9000 building"
+  });
+  google.maps.event.addListener(marker12, "click", function(e) {
+    iw.open(map, this);
+  });
+  
+  var iw = new google.maps.InfoWindow({
+    content: "9000 building"
+  });
+  google.maps.event.addListener(marker13, "click", function(e) {
+    iw.open(map, this);
+  });
+  
+  var iw = new google.maps.InfoWindow({
+    content: "9000 building"
+  });
+  google.maps.event.addListener(marker14, "click", function(e) {
+    iw.open(map, this);
+  });
+  
+  var iw = new google.maps.InfoWindow({
+    content: "9000 building"
+  });
+  google.maps.event.addListener(marker15, "click", function(e) {
+    iw.open(map, this);
+  });
+  
+  var iw = new google.maps.InfoWindow({
+    content: "9000 building"
+  });
+  google.maps.event.addListener(marker16, "click", function(e) {
+    iw.open(map, this);
+  });
+ 
+  marker.addListener('click', toggleBounce);
+}
+
+function toggleBounce() {
+  if (marker.getAnimation() !== null) {
+    marker.setAnimation(null);
+  } else {
+    marker.setAnimation(google.maps.Animation.BOUNCE);
+  }
+  
+  if (marker2.getAnimation() !==null) {
+	marker.setAnimation(null);
+  } else {
+	marker2.setAnimation(google.maps.Animation.BOUNCE);
+  }
+  
+   if (marker3.getAnimation() !==null) {
+	marker.setAnimation(null);
+  } else {
+	marker3.setAnimation(google.maps.Animation.BOUNCE);
+  }
+  
+  if (marker4.getAnimation() !==null) {
+	marker.setAnimation(null);
+  } else {
+	marker4.setAnimation(google.maps.Animation.BOUNCE);
+  }
+
+  if (marker5.getAnimation() !==null) {
+	marker.setAnimation(null);
+  } else {
+	marker5.setAnimation(google.maps.Animation.BOUNCE);
+  }
+
+  if (marker6.getAnimation() !==null) {
+	marker.setAnimation(null);
+  } else {
+	marker6.setAnimation(google.maps.Animation.BOUNCE);
+  }
+
+  if (marker7.getAnimation() !==null) {
+	marker.setAnimation(null);
+  } else {
+	marker7.setAnimation(google.maps.Animation.BOUNCE);
+  }
+  
+   if (marker8.getAnimation() !==null) {
+	marker.setAnimation(null);
+  } else {
+	marker8.setAnimation(google.maps.Animation.BOUNCE);
+  }
+  
+  if (marker9.getAnimation() !==null) {
+	marker.setAnimation(null);
+  } else {
+	marker9.setAnimation(google.maps.Animation.BOUNCE);
+  }
+  
+  if (marker10.getAnimation() !==null) {
+	marker.setAnimation(null);
+  } else {
+	marker10.setAnimation(google.maps.Animation.BOUNCE);
+  }
+  
+  if (marker11.getAnimation() !==null) {
+	marker.setAnimation(null);
+  } else {
+	marker11.setAnimation(google.maps.Animation.BOUNCE);
+  }
+
+  if (marker12.getAnimation() !==null) {
+	marker.setAnimation(null);
+  } else {
+	marker12.setAnimation(google.maps.Animation.BOUNCE);
+  }
+
+  if (marker13.getAnimation() !==null) {
+	marker.setAnimation(null);
+  } else {
+	marker13.setAnimation(google.maps.Animation.BOUNCE);
+  }
+  
+  if (marker14.getAnimation() !==null) {
+	marker.setAnimation(null);
+  } else {
+	marker14.setAnimation(google.maps.Animation.BOUNCE);
+  }
+
+  if (marker15.getAnimation() !==null) {
+	marker.setAnimation(null);
+  } else {
+	marker15.setAnimation(google.maps.Animation.BOUNCE);
+  }
+  
+  if (marker16.getAnimation() !==null) {
+	marker.setAnimation(null);
+  } else {
+	marker16.setAnimation(google.maps.Animation.BOUNCE);
+  }
+
+
+
+
+  var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+ 
+  });
+  
+  var marker2 = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+ 
+  });
+  
+  var marker3 = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+ 
+  });
+  
+  var marker4 = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+ 
+  });
+  
+  var marker5 = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+ 
+  });
+  
+  var marker6 = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+ 
+  });
+  
+  var marker7 = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+ 
+  });
+  
+   var marker8 = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+ 
+  });
+  
+   var marker9 = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+ 
+  });
+  
+  var marker10 = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+ 
+  });
+  
+  var marker11 = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+ 
+  });
+  
+  var marker12 = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+ 
+  });
+  
+  var marker13 = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+ 
+  });
+  
+  var marker14 = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+ 
+  });
+  
+  var marker15 = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+ 
+  });
+  
+  var marker16 = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+ 
+  });
+  
+  
+  
+  
+  
+  
+}
+		</script>
+		
+		</center>
+		<script async defer
+			src= "https://maps.googleapis.com/maps/api/js?key=&callback=initMap">
+    </script>
+  </body>
+  </center> 
+</html>
+		
